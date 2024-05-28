@@ -26,7 +26,7 @@ function getBathValue() {
     var location = document.getElementById("uiLocations");
     var estPrice = document.getElementById("uiEstimatedPrice");
   
-    var url = "/predict_price"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
+    var url = "/predict_price"; 
     //var url= "http://127.0.0.1:5000/predict_price"
     //var url = "http://ec2-54-252-54-120.ap-southeast-2.compute.amazonaws.com:8080/predict_price";
 
@@ -46,7 +46,7 @@ function getBathValue() {
   function onPageLoad() {
     console.log( "document loaded" );
     //var url= "http://127.0.0.1:5000/get_location_names"
-    var url = "/get_location_names"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
+    var url = "/get_location_names"; 
     //var url = "http://ec2-54-252-54-120.ap-southeast-2.compute.amazonaws.com:8080/get_location_names";
 
     $.get(url,function(data, status) {
