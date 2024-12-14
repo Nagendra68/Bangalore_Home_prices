@@ -62,5 +62,3 @@ The dataset contains real estate listings from Bangalore, including features lik
 ---
 Feel free to contribute by opening issues or pull requests!  
 ``` 
-
-You can customize the placeholder fields like repository link, deployment platform, and dataset source.
